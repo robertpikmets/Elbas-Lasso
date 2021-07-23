@@ -1,2 +1,6 @@
 # Elbas-Lasso
-R code for preparing Nord Pool's energy market data and developing LASSO models for forecasting intraday prices
+R code for preparing Nord Pool's energy market data and developing LASSO models for forecasting intraday prices. This code was developed for a master's thesis for acquiring MSc Actuarial and Financial Engineering from University of Tartu. The thesis is titled "Forecasting intraday electricity prices on the Nord Pool using LASSO" and it is available at https://dspace.ut.ee/handle/10062/72876.
+
+## Abstract
+
+This thesis aims to forecast hourly intraday electricity prices on the Nord Pool’s continuous intraday market Elbas. For this, an aggregate volumeweighted average price of all intraday transactions during the last 4 hours prior to each delivery hour is predicted for the Nordic and Baltic price areas. The main modelling technique used is the least absolute shrinkage and selection operator (LASSO). Two of the most common forecasting frameworks are compared, known as the univariate and multivariate frameworks in the electricity price forecasting literature. The LASSO estimated model set in the univariate framework is found to perform the best, beating the multivariate framework as well as simple benchmark models in terms of forecast accuracy. The best performing LASSO model achieves a MAE of 3.83 EUR/MWh and RMSE of 6.99 EUR/MWh in the out-of-sample test period, representing a 13.6% increase in forecasting accuracy compared to the best naive estimate.
