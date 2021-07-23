@@ -1,5 +1,5 @@
 # Forecasting intraday electricity prices on the Nord Pool using LASSO
-R code for preparing Nord Pool's energy market data and developing LASSO models for forecasting intraday prices. This code was developed for a master's thesis for acquiring MSc Actuarial and Financial Engineering from University of Tartu. The thesis is titled "Forecasting intraday electricity prices on the Nord Pool using LASSO" and it is available at https://dspace.ut.ee/handle/10062/72876.
+This repository contains the R code for preparing Nord Pool's energy market data, developing LASSO models for forecasting intraday prices and creating visualisations of data and results. This code was developed for a master's thesis for acquiring MSc Actuarial and Financial Engineering from University of Tartu. The thesis is titled "Forecasting intraday electricity prices on the Nord Pool using LASSO" and it is available at https://dspace.ut.ee/handle/10062/72876.
 
 ## Abstract
 
